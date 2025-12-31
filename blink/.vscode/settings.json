@@ -19,6 +19,6 @@
     "cmake.buildBeforeRun": true,
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "cmake.environment": {
-        "PICO_SDK_PATH":"../../pico-sdk"
+        "PICO_SDK_PATH":"/Users/mybays/develop/rpi-pico/pico-sdk"
     }
 }
