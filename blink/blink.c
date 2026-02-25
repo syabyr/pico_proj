@@ -26,8 +26,10 @@ int main() {
         count++;  // 在此设置断点
         gpio_put(LED_PIN, 1);
         simple_delay(500000);
+		//sleep_ms(250);
         gpio_put(LED_PIN, 0);
         simple_delay(500000);
+		//sleep_ms(250);
     }
 #endif
 }
